@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 
 import './main.css';
 
+const Selection = (props) => {
+  return (
+    <h1 className="selection">{props.choice}</h1>
+  )
+}
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +16,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <h1>Hello World!</h1>
+      <div>
+        <h1>Rock, Paper, Scissors!</h1>
+        <ul className='selection-list'>
+          <li>👊</li>
+          <li>🖐</li>
+          <li>✌</li>
+        </ul>
+        <h2>Choose Carefully</h2>
+        <Selection choice='🤜'/>
+        <Selection choice='🤛'/>
+      </div>
     )
   }
 }

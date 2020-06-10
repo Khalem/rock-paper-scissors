@@ -1,0 +1,61 @@
+:root {
+  --light-purple: #49384D;
+  --yellow: #FFE600;
+  --dark-blue: #1C1C27;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #1C1C27;
+  color: white;
+}
+
+
+h1 {
+  margin: 75px 0;
+  font-weight: 400;
+}
+
+
+ul {
+  text-align: center;
+}
+
+
+ul li {
+  cursor: pointer;
+  width: 134px;
+  font-size: 54px;
+  padding: 29px 0;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid var(--light-purple);
+  border-radius: 50px;
+  margin: 0 50px;
+}
+
+
+ul li:hover {
+  background-color: var(--light-purple);
+}
+
+
+.active {
+  background-color: var(--light-purple);
+  border: 2px solid var(--yellow);
+}
+
+
+h2 {
+  font-style: italic;
+  margin: 50px;
+}
+
+
+.selection {
+  display: inline-block;
+  font-size: 62px;
+  margin: 25px 50px;
+}
