@@ -1,0 +1,27 @@
+.selection-list {
+    text-align: center;
+}
+
+
+.selection-list h1 {
+    cursor: pointer;
+    width: 134px;
+    font-size: 54px;
+    padding: 29px 0;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid var(--light-purple);
+    border-radius: 50px;
+    margin: 0 50px;
+}
+
+
+.selection-list h1:hover {
+    background-color: var(--light-purple);
+}
+
+
+.selection-list h1.active {
+    background-color: var(--light-purple);
+    border: 2px solid var(--yellow);
+}

@@ -1,0 +1,12 @@
+.selection {
+    display: inline-block;
+}
+
+.selection h1 {
+    font-size: 62px;
+    margin: 25px 50px;
+}
+
+.selection p {
+    opacity: .75;
+}
